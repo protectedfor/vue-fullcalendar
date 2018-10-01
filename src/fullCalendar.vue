@@ -44,6 +44,7 @@
                   <template scope="p">
                     <slot name="fc-event-card" :event="p.event"></slot>
                   </template>
+                  {{ event.title }}
                 </event-card>
                 <p v-if="day.events.length > eventLimit"
                    class="more-link" @click.stop="selectThisDay(day, $event)">

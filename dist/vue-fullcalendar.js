@@ -771,6 +771,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	//
 	//
 	//
+	//
 	
 	// import langSets from './dataMap/langSets'
 
@@ -18453,7 +18454,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	              })]
 	            }
 	          }])
-	        })
+	        }, [_vm._v("\n                " + _vm._s(event.title) + "\n              ")])
 	      }), _vm._v(" "), (day.events.length > _vm.eventLimit) ? _c('p', {
 	        staticClass: "more-link",
 	        on: {
